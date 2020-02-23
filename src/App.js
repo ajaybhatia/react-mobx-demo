@@ -85,7 +85,7 @@ function FruitForm() {
 export default function App() {
   return (
     <StoreProvider>
-      <Container className="my-5 p-5 bg-dark text-light rounded-lg">
+      <Container className="col-10 col-sm-8 col-md-6 col-lg-4 my-5 p-5 bg-dark text-light rounded-lg">
         <FruitHeader />
         <FruitForm />
         <Fruits />
